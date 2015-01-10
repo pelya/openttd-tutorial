@@ -10,8 +10,7 @@ Turn on area coverage. You want to cover many buildings.
 Build a vehicle depot. Buy a bus.
 Open vehicle orders. Press 'go to station'. Select another station.
 Start vehicle.
-Go to depot. Clone that bus. Clone again.
-You now have a bus fleet. Start all vehicles.
+Go to depot. Clone that bus. Clone again. Start all vehicles.
 
 Let's create a railroad service.
 Find two industries to connect.

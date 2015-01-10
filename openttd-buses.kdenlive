@@ -10,7 +10,7 @@
   <property name="mlt_service">colour</property>
  </producer>
  <playlist id="black_track">
-  <entry in="0" out="5261" producer="black"/>
+  <entry in="0" out="3508" producer="black"/>
  </playlist>
  <producer in="0" out="556" id="2">
   <property name="mlt_type">producer</property>
@@ -93,6 +93,15 @@
   <property name="meta.media.height">720</property>
   <property name="mlt_service">pixbuf</property>
  </producer>
+ <producer in="0" out="54079" id="slowmotion:1:0.25">
+  <property name="mlt_type">producer</property>
+  <property name="length">54080</property>
+  <property name="eof">pause</property>
+  <property name="resource">kino/kdenlive/openttd-buses-raw.mp4?0.25</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">framebuffer</property>
+  <property name="strobe">1</property>
+ </producer>
  <playlist id="playlist3">
   <entry in="0" out="90" producer="2">
    <filter out="42" id="fade_from_black">
@@ -124,6 +133,19 @@
   <entry in="10205" out="10338" producer="1"/>
   <blank length="33"/>
   <entry in="10385" out="10421" producer="1"/>
+  <blank length="148"/>
+  <entry in="10986" out="11020" producer="1"/>
+  <blank length="49"/>
+  <entry in="11202" out="11234" producer="1"/>
+  <blank length="39"/>
+  <entry in="11466" out="11527" producer="1"/>
+  <entry in="46112" out="46147" producer="slowmotion:1:0.25"/>
+  <blank length="96"/>
+  <entry in="11639" out="11724" producer="1"/>
+  <blank length="31"/>
+  <entry in="11762" out="11807" producer="1"/>
+  <blank length="52"/>
+  <entry in="11866" out="11902" producer="1"/>
  </playlist>
  <producer in="0" out="124" id="6">
   <property name="mlt_type">producer</property>
@@ -345,7 +367,32 @@
   <entry in="10676" out="10705" producer="1"/>
   <entry in="10802" out="10848" producer="1"/>
   <entry in="0" out="21" producer="16"/>
-  <entry in="10849" out="13519" producer="1"/>
+  <entry in="10849" out="10903" producer="1"/>
+  <blank length="32"/>
+  <entry in="11021" out="11072" producer="1"/>
+  <blank length="27"/>
+  <entry in="11347" out="11391" producer="1"/>
+  <blank length="92"/>
+  <entry in="11537" out="11638" producer="1"/>
+  <blank length="80"/>
+  <entry in="11725" out="11761" producer="1"/>
+  <blank length="40"/>
+  <entry in="11808" out="11865" producer="1"/>
+  <blank length="31"/>
+  <entry in="11903" out="11922" producer="1"/>
+  <entry in="11989" out="12235" producer="1">
+   <filter in="12192" out="12236" id="fade_to_black">
+    <property name="track">0</property>
+    <property name="start">1</property>
+    <property name="mlt_type">filter</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="end">0</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
  </playlist>
  <producer in="0" out="124" id="7">
   <property name="mlt_type">producer</property>
@@ -545,7 +592,7 @@
    </filter>
   </entry>
  </playlist>
- <tractor title="Anonymous Submission" global_feed="1" in="0" out="5261" id="maintractor">
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="3508" id="maintractor">
   <property name="meta.volume">1</property>
   <track producer="black_track"/>
   <track producer="playlist3"/>
@@ -1031,10 +1078,131 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
+  <transition in="2643" out="2645" id="transition44">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="2727" out="2729" id="transition45">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="2757" out="2759" id="transition46">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition in="2799" out="2801" id="transition47">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="2894" out="2896" id="transition48">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition in="2993" out="2995" id="transition49">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="3076" out="3078" id="transition50">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition in="3110" out="3112" id="transition51">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="3153" out="3155" id="transition52">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+  <transition in="3208" out="3210" id="transition53">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">1</property>
+  </transition>
+  <transition in="3242" out="3244" id="transition54">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
  </tractor>
  <kdenlivedoc profile="hdv_720_25p" kdenliveversion="0.9.10" version="0.88" projectfolder="/home/pelya/kino/kdenlive">
   <customeffects/>
-  <documentproperties proxyimageminsize="2000" zonein="91" enableproxy="0" zoneout="376" generateproxy="0" zoom="4" verticalzoom="2" proxyextension="ts" position="2603" documentid="1420892986283" generateimageproxy="0" proxyminsize="1000" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7"/>
+  <documentproperties proxyimageminsize="2000" zonein="91" enableproxy="0" zoneout="376" generateproxy="0" zoom="4" verticalzoom="2" proxyextension="ts" position="3508" documentid="1420892986283" generateimageproxy="0" proxyminsize="1000" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
@@ -1057,8 +1225,8 @@ p, li { white-space: pre-wrap; }
   </kdenlive_producer>
   <kdenlive_producer duration="125" frame_size="1280x720" in="0" analysisdata="" file_size="1700753" aspect_ratio="1" out="124" file_hash="5b6c6159480e2d3df9804680b35e1e20" type="5" id="2" name="openttd-buses-intro-frame.png" resource="/home/pelya/kino/kdenlive/openttd-buses-intro-frame.png"/>
   <kdenlive_producer duration="125" frame_size="1280x720" thumbnail="100" in="0" analysisdata="" file_size="5361" aspect_ratio="1" out="124" file_hash="51f145ebaff1a5169ec67a04aa3f6408" type="5" id="3" name="black.png" resource="/home/pelya/kino/kdenlive/black.png"/>
-  <kdenlive_producer duration="125" frame_size="1280x720" in="0" analysisdata="" file_size="1617378" aspect_ratio="1" out="124" type="5" id="6" name="missed-it.png" resource="/home/pelya/kino/kdenlive/missed-it.png"/>
-  <kdenlive_producer duration="125" frame_size="720x720" thumbnail="100" in="0" analysisdata="" file_size="30905" aspect_ratio="1" out="124" type="5" id="7" name="two_fingers_double_tap.png" resource="/home/pelya/kino/kdenlive/two_fingers_double_tap.png"/>
+  <kdenlive_producer duration="125" frame_size="1280x720" in="0" analysisdata="" file_size="1587323" aspect_ratio="1" out="124" file_hash="2d9a55bd8f254de90a4ac95d765c59ce" type="5" id="6" name="missed-it.png" resource="/home/pelya/kino/kdenlive/missed-it.png"/>
+  <kdenlive_producer duration="125" frame_size="720x720" thumbnail="100" in="0" analysisdata="" file_size="17921" aspect_ratio="1" out="124" file_hash="8a80f1c05b3c25ca95515e2da6179001" type="5" id="7" name="two_fingers_double_tap.png" resource="/home/pelya/kino/kdenlive/two_fingers_double_tap.png"/>
   <kdenlive_producer duration="125" frame_size="1280x720" in="0" analysisdata="" file_size="1612895" aspect_ratio="1" out="124" file_hash="a2e185493722123ff87e29add0b5ac45" type="5" id="8" name="zoom-in.png" resource="/home/pelya/kino/kdenlive/zoom-in.png"/>
   <kdenlive_producer duration="125" frame_size="720x720" thumbnail="100" in="0" analysisdata="" file_size="11818" aspect_ratio="1" out="124" file_hash="52f0f23cf054cc5adbe361f9e0abb877" type="5" id="9" name="two_fingers_swipe_left.png" resource="/home/pelya/kino/kdenlive/two_fingers_swipe_left.png"/>
   <kdenlive_producer duration="125" frame_size="1280x720" in="0" analysisdata="" file_size="1668147" aspect_ratio="1" out="124" file_hash="c7956979465934bffe8f9c5c85b4ad12" type="5" id="10" name="click-depot.png" resource="/home/pelya/kino/kdenlive/click-depot.png"/>
