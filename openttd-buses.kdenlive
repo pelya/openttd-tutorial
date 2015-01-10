@@ -10,7 +10,7 @@
   <property name="mlt_service">colour</property>
  </producer>
  <playlist id="black_track">
-  <entry in="0" out="3508" producer="black"/>
+  <entry in="0" out="3548" producer="black"/>
  </playlist>
  <producer in="0" out="556" id="2">
   <property name="mlt_type">producer</property>
@@ -126,6 +126,7 @@
   <entry in="8037" out="8140" producer="1"/>
   <blank length="222"/>
   <entry in="9169" out="9194" producer="1"/>
+  <entry in="9249" out="9288" producer="1"/>
   <blank length="249"/>
   <entry in="10045" out="10124" producer="1"/>
   <entry in="0" out="26" producer="14"/>
@@ -351,7 +352,7 @@
   <entry in="8961" out="8975" producer="1"/>
   <entry in="0" out="34" producer="11"/>
   <entry in="8976" out="9016" producer="1"/>
-  <blank length="18"/>
+  <blank length="58"/>
   <entry in="9323" out="9325" producer="1"/>
   <entry in="0" out="24" producer="12"/>
   <entry in="9326" out="9372" producer="1"/>
@@ -545,7 +546,7 @@
     <property name="Operation">0.0</property>
    </filter>
   </entry>
-  <blank length="101"/>
+  <blank length="141"/>
   <entry in="6" out="61" producer="3">
    <filter id="filter7">
     <property name="track">0</property>
@@ -592,7 +593,7 @@
    </filter>
   </entry>
  </playlist>
- <tractor title="Anonymous Submission" global_feed="1" in="0" out="3508" id="maintractor">
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="3548" id="maintractor">
   <property name="meta.volume">1</property>
   <track producer="black_track"/>
   <track producer="playlist3"/>
@@ -792,7 +793,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2007" out="2029" id="transition18">
+  <transition in="2047" out="2069" id="transition18">
    <property name="a_track">2</property>
    <property name="b_track">3</property>
    <property name="factory">loader</property>
@@ -803,7 +804,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="1974" out="2006" id="transition19">
+  <transition in="2014" out="2046" id="transition19">
    <property name="a_track">2</property>
    <property name="b_track">3</property>
    <property name="factory">loader</property>
@@ -814,7 +815,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2115" out="2136" id="transition20">
+  <transition in="2155" out="2176" id="transition20">
    <property name="a_track">2</property>
    <property name="b_track">3</property>
    <property name="factory">loader</property>
@@ -825,7 +826,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="2081" out="2114" id="transition21">
+  <transition in="2121" out="2154" id="transition21">
    <property name="a_track">2</property>
    <property name="b_track">3</property>
    <property name="factory">loader</property>
@@ -1001,7 +1002,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="1899" out="1901" id="transition37">
+  <transition in="1939" out="1941" id="transition37">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1012,7 +1013,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2151" out="2153" id="transition38">
+  <transition in="2191" out="2193" id="transition38">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1023,7 +1024,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="2253" out="2257" id="transition39">
+  <transition in="2293" out="2297" id="transition39">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1034,7 +1035,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2291" out="2293" id="transition40">
+  <transition in="2331" out="2333" id="transition40">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1045,7 +1046,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="2422" out="2424" id="transition41">
+  <transition in="2462" out="2464" id="transition41">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1056,7 +1057,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2458" out="2461" id="transition42">
+  <transition in="2498" out="2501" id="transition42">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1067,7 +1068,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="2492" out="2494" id="transition43">
+  <transition in="2532" out="2534" id="transition43">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1078,7 +1079,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2643" out="2645" id="transition44">
+  <transition in="2683" out="2685" id="transition44">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1089,7 +1090,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="2727" out="2729" id="transition45">
+  <transition in="2767" out="2769" id="transition45">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1100,7 +1101,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="2757" out="2759" id="transition46">
+  <transition in="2797" out="2799" id="transition46">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1111,7 +1112,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2799" out="2801" id="transition47">
+  <transition in="2839" out="2841" id="transition47">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1122,7 +1123,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="2894" out="2896" id="transition48">
+  <transition in="2934" out="2936" id="transition48">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1133,7 +1134,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="2993" out="2995" id="transition49">
+  <transition in="3033" out="3035" id="transition49">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1144,7 +1145,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="3076" out="3078" id="transition50">
+  <transition in="3116" out="3118" id="transition50">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1155,7 +1156,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="3110" out="3112" id="transition51">
+  <transition in="3150" out="3152" id="transition51">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1166,7 +1167,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="3153" out="3155" id="transition52">
+  <transition in="3193" out="3195" id="transition52">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1177,7 +1178,7 @@
    <property name="force_track">0</property>
    <property name="reverse">0</property>
   </transition>
-  <transition in="3208" out="3210" id="transition53">
+  <transition in="3248" out="3250" id="transition53">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1188,7 +1189,7 @@
    <property name="force_track">0</property>
    <property name="reverse">1</property>
   </transition>
-  <transition in="3242" out="3244" id="transition54">
+  <transition in="3282" out="3284" id="transition54">
    <property name="a_track">1</property>
    <property name="b_track">2</property>
    <property name="factory">loader</property>
@@ -1202,7 +1203,7 @@
  </tractor>
  <kdenlivedoc profile="hdv_720_25p" kdenliveversion="0.9.10" version="0.88" projectfolder="/home/pelya/kino/kdenlive">
   <customeffects/>
-  <documentproperties proxyimageminsize="2000" zonein="91" enableproxy="0" zoneout="376" generateproxy="0" zoom="4" verticalzoom="2" proxyextension="ts" position="3508" documentid="1420892986283" generateimageproxy="0" proxyminsize="1000" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7"/>
+  <documentproperties documentid="1420892986283" renderaudiobitrate="64" renderdestination="" renderrescalewidth="320" proxyextension="ts" generateproxy="0" proxyimageminsize="2000" rendertctype="0" verticalzoom="2" renderprofile="H.264/AAC High Profile" renderrescaleheight="240" zonein="91" renderrescale="0" renderscanning="1" renderurl="/home/pelya/kino/kdenlive/openttd-buses-2.mp4" rendertwopass="0" renderplay="0" position="3186" proxyminsize="1000" renderstartguide="-1" zoom="4" rendercategory="MP4" renderratio="0" zoneout="376" renderbitrate="10" renderzone="0" renderendguide="-1" renderexportaudio="0" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" enableproxy="0" generateimageproxy="0" renderguide="0" rendertcoverlay="0"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">

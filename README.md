@@ -6,6 +6,11 @@ to produce a final version:
 
 https://drive.google.com/file/d/0BwueOoj_DB7YbTNReXlsQndNem8/view?usp=sharing
 
+Final video can be downloaded here:
+
+https://drive.google.com/file/d/0BwueOoj_DB7YdFJna0N1MHJBMkk/view?usp=sharing
+
+http://youtu.be/pbDSGw_UgDA
 
 Icons
 
@@ -14,5 +19,4 @@ two_fingers_resize_out.svg
 two_fingers_swipe_left.svg
 
 are © Creative Commons (Attribution 3.0 Unported) by Yannick Lung.
-
 
