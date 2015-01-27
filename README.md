@@ -20,3 +20,7 @@ two_fingers_swipe_left.svg
 
 are © Creative Commons (Attribution 3.0 Unported) by Yannick Lung.
 
+Subtitles are created using aegisub application.
+Run script convert-speech.sh to convert subtitles from subtitles.txt
+to audio files with speech, using Android text to speech engine,
+you will also need to enable USB debugging in Android, and have ADB tool.

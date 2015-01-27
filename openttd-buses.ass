@@ -25,7 +25,7 @@ Dialogue: 0,0:00:00.00,0:00:02.94,Default,,0,0,0,,Create a bus service.
 Dialogue: 0,0:00:02.94,0:00:08.98,Default,,0,0,0,,Select road builder tool.
 Dialogue: 0,0:00:08.98,0:00:12.94,Default,,0,0,0,,Draw a line.
 Dialogue: 0,0:00:12.94,0:00:14.54,Default,,0,0,0,,Missed it?
-Dialogue: 0,0:00:14.54,0:00:19.22,Default,,0,0,0,,Touch the screen with two fingers, this will dismiss last command.
+Dialogue: 0,0:00:14.54,0:00:19.22,Default,,0,0,0,,Touch the screen with two fingers to cancel.
 Dialogue: 0,0:00:19.22,0:00:24.98,Default,,0,0,0,,Zoom in for better control.
 Dialogue: 0,0:00:24.98,0:00:27.50,Default,,0,0,0,,
 Dialogue: 0,0:00:27.50,0:00:35.14,Default,,0,0,0,,Drag the map with two fingers while building.
