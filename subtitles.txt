@@ -4,7 +4,7 @@ Select road builder tool.
 Draw a line.
 Missed it?
 Touch the screen with two fingers to cancel.
-Zoom in for better control.
+Zoom ; in ; for better control.
 Drag the map with two fingers while building.
 It will also scroll.
 Select a bus station to build.
@@ -22,46 +22,4 @@ Go to depot.
 Clone the bus.
 Clone again.
 Start all vehicles.
-
-Railroad service.
-Find two industries to connect.
-This farm produces livestock and grain.
-The factory accepts them, and produces goods.
-Goods are accepted by towns.
-Build rail station.
-Build rail road to the farm.
-Build another station.
-Build a depot.
-Buy a steam engine.
-Buy a car for livestock and for grain.
-Select your new train.
-Open orders.
-Add a station.
-Select another station.
-Start vehicle.
-Now factory will produce goods.
-We need another train to deliver them to the town.
-Build more rail road.
-Build train station.
-Build another depot.
-Buy a train.
-Buy a car for goods.
-Create orders to go between the factory and the town.
-Start it.
-The train stops, to not crash into other train.
-Put semaphores before and after the factory station.
-The train will wait before a semaphone for the other train.
-
-Add a computer opponent.
-Open AI settings.
-Increase number of players.
-You need to download AI.
-Open online content.
-Select some AIs.
-Download them.
-AI will create a company three years into the game,
-to give you some time to start your company.
-You can view your competitor finances.
-You can view stations.
-Switch toolbar to view vehicles.
 
