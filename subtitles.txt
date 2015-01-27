@@ -1,7 +1,7 @@
 
 Create a bus service.
 Select road builder tool. Draw a line.
-Missed it? Touch the screen with two fingers, this will dismiss last command.
+Missed it? Touch the screen with two fingers to cancel.
 Zoom in for better control.
 Drag the map with two fingers while building. It will also scroll.
 Select a bus station to build. Select orientation.
